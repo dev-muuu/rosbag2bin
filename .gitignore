@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Conversion output -- KITTI .bin files and their skip reports.
+# Only matters when OUTPUT_ROOT points inside the repo; harmless otherwise.
+*.bin
+skipped.txt
+output/
+out/
+kitti/
+
+# Bags, in case any are copied in for testing
+*.bag
+*.db3
+*.mcap
+metadata.yaml
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
